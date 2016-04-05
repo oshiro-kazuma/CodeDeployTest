@@ -9,3 +9,7 @@ CodeDeploy + Github hockを使って自動デプロイ。
 4. GitHubのWebhooks & servicesでAuto-Deploymentを設定
 
 デフォルトのブランチに更新があった時、CodeDeployがフックされるようになる。
+
+※ デフォルトのブランチしかフックできないっぽい？
+
+※ CodeDeployはデプロイの始まり、終了などのイベントをAmazonSNSに飛ばすことができる
